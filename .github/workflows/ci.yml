@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Echo Base
-        run: echo "base"
+      - name: Echo Merge
+        run: echo "Merge"
