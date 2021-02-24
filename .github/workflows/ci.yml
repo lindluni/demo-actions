@@ -2,12 +2,12 @@
 
 name: CI
 on:
-  pull_request:
+  pull_request_target:
     branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Echo Base
-        run: echo "base"
+      - name: Echo Merge
+        run: echo "merge"
